@@ -8,6 +8,7 @@ class Fines(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     offender_id = db.Column(db.Integer, nullable=False)
     prosecutor_id = db.Column(db.Integer, nullable=False)
+    description = db.Column(db.String(1500))
     cost = db.Column(db.Integer, nullable=False)
     status = db.Column(db.String(16), nullable=False)
     date_posted = db.Column(db.DateTime, nullable=False)
