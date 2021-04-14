@@ -1,7 +1,7 @@
 import unittest, json
-from flask import Flask
+#from flask import Flask
 
-app = Flask(__name__)
+#app = Flask(__name__)
 
 class FlaskTestCase(unittest.TestCase):
     def setUp(self):
@@ -20,4 +20,4 @@ class FlaskTestCase(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main()
+    print(5)
