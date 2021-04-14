@@ -8,4 +8,4 @@ install:
 # run tests
 script:
    - export PYTHONPATH=$PYTHONPATH:$(pwd)
-   - python /tests/tetst_flaskapp.py
+   - python /tests/test_flaskapp.py
