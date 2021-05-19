@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Welcome to Fines Enforcement site.</h2>
+  <p class="lead">
+    If you already have an account, go ahead and <a href="{% url 'login' %}">log in</a>. If you are new to paying fines, get started
+    by creating a <a href="{% url 'citizen_signup' %}">citizen account</a> or a <a href="{% url 'gendarme_signup' %}">gendarme account</a>.
+  </p>
+{% endblock %}
